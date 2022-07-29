@@ -7,30 +7,30 @@
 ;; Package-Requires: ((emacs "24.1"))
 
 ;;; Commentary:
-;; Auy dark
+;; Ayu dark
 
 ;;; Code:
 
 (deftheme ayu-dark
-  "Created 2018-05-06. An emacs-port of the dark verions of the amazing Ayu-theme")
+  "Created 2022-07-29. A barely improved Emacs port of the Ayu theme")
 
 (custom-theme-set-faces
  'ayu-dark
- '(default ((t (:foreground "#c3c0bb" :background "#000919" ))))
+ '(default ((t (:foreground "#E6E1CF" :background "#0F1419" ))))
  '(cursor ((t (:background "DarkOrange1"))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
- '(minibuffer-prompt ((t (:foreground "#9DA5B4"))))
- '(highlight ((t (:background "#3E4451"))))
- '(region ((t (:background "#3E4451"))))
+ '(minibuffer-prompt ((t (:foreground "2D3640"))))
+ '(highlight ((t (:background "#253340"))))
+ '(region ((t (:background "#253340"))))
  '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "green")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
- '(secondary-selection ((t (:background "#121417"))))
+ '(secondary-selection ((t (:background "#253340"))))
  '(trailing-whitespace ((((class color) (background light)) (:background "red1")) (((class color) (background dark)) (:background "red1")) (t (:inverse-video t))))
  '(font-lock-builtin-face ((t (:foreground "DeepSkyBlue1"))))
  '(font-lock-comment-delimiter-face ((t (:inherit (font-lock-comment-face)))))
- '(font-lock-comment-face ((t (:foreground "#5C6370"))))
- '(font-lock-constant-face ((t (:foreground "#01fcff"))))
+ '(font-lock-comment-face ((t (:foreground "#5C6773"))))
+ '(font-lock-constant-face ((t (:foreground "#FFEE99"))))
  '(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
- '(font-lock-function-name-face ((t (:foreground "#00bbea"))))
+ '(font-lock-function-name-face ((t (:foreground "#FFB454")))) ;; this is where i stopped just now, cause i was doing this in the fucking github web editor
  '(font-lock-keyword-face ((t (:foreground "#ff6503"))))
  '(font-lock-negation-char-face ((t nil)))
  '(font-lock-preprocessor-face ((t (:foreground "#828997"))))
