@@ -2,8 +2,8 @@
 
 ;; SPDX-License-Identifier: MIT
 
-;; URL: https://github.com/averycoolbean/Ayu-for-Emacs-Darker
-;; Package-Version: 1.1
+;; URL: https://github.com/vutran1710/Ayu-Theme-Emacs
+;; Package-Version: 1.0
 ;; Package-Requires: ((emacs "24.1"))
 
 ;;; Commentary:
@@ -70,3 +70,4 @@
 (provide-theme 'ayu-dark)
 
 ;;; ayu-dark-theme.el ends here
+~
