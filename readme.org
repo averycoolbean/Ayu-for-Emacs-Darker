@@ -1,12 +1,5 @@
-#+OPTIONS: ^:nil
-#+TITLE: Ayu-Theme Pack for Emacs
-#+DATE: <2018-07-31 Tue>
-#+AUTHOR: Vu Tran
-#+EMAIL: me@vutr.io`
-
 * Content                                                               :TOC:
 - [[#introduction][Introduction]]
-- [[#screenshots][Screenshots]]
 - [[#installing][Installing]]
 - [[#licensecredit][License/Credit]]
 
@@ -15,20 +8,6 @@ Refer to the original [[https://github.com/dempfi/ayu][Ayu-theme]]. It's truly a
 
 This repo currently provides 3 versions of Ayu-theme: the light, they grey & the dark. Refer to the files with correspondent
 names.
-
-
-* Screenshots
-
-#+ATTR_HTML: :style margin-left: auto; margin-right: auto; :width 300
-[[./img/light.png]]
-
-
-
-#+ATTR_HTML: :style margin-left: auto; margin-right: auto; :width 300
-[[./img/dark.png]]
-
-#+ATTR_HTML: :style margin-left: auto; margin-right: auto; :width 300
-[[./img/grey.png]]
 
 * Installing
 
@@ -46,30 +25,17 @@ And somewhere, with a little lisp...
 (setq custom-theme-directory "~/.emacs.d/themes")
 #+end_src
 
-** Melpa
-
-With *use-package* macro:
-
-#+begin_src emacs-lisp
-(use-package ayu-theme
-  :config (load-theme 'ayu-dark t))
-#+end_src
-
 ** Quelpa
 
-It's possible to install them using [[https://github.com/quelpa/quelpa][Quelpa]], though.
+It's possible to install it using [[https://github.com/quelpa/quelpa][Quelpa]].
 
 #+BEGIN_SRC emacs-lisp
 (use-package ayu-theme
   :quelpa
-  (ayu-theme :repo "vutran1710/Ayu-Theme-Emacs" :fetcher github)
+  (ayu-theme :repo "averycoolbean/Ayu-for-Emacs-Darker" :fetcher github)
   :config
   (load-theme 'ayu-dark t))
 #+END_SRC
 
 * License/Credit
-All go to the original author of Ayu-theme.
-
-I just did the copy works.
-
-The colors might not be 100% accurate.
+All go to the original author of Ayu-theme and it's emacs port i guess.
